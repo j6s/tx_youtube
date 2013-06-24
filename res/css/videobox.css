@@ -1,0 +1,99 @@
+#mediaBox {
+padding:0;
+width: 472px;
+}
+#mediaBox .hd-txt{
+	background-color:#666;
+	height: 30px;
+}
+#mediaBox .hd-txt h4{
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: bold;
+    padding-left: 11px;
+    padding-top: 6px;
+}
+#mediaBox #innerBox {
+	background:#DADADA;
+	padding:10px;
+}
+#mediaBox #player {
+	margin-bottom:12px;
+}
+#mediaBox .date-post {
+font-size:11px;
+font-weight:bold;
+color:#a1cf3e;
+padding-left:10px;
+margin-bottom:0px!important;
+}
+
+#mediaBox .hd-post {
+	font-size:14px;
+	font-weight:bold;
+	color:#fff;
+	padding-left:10px;
+	margin-bottom:15px;
+}
+#mediaBox .mediaDetail {
+	background:url(../images/media-detail-bg.jpg) repeat-x left bottom;
+	height:60px;
+	padding:10px;
+}
+#mediaBox .mediaDetail .displayBox{
+float:left;
+width:96px;
+padding:3px;
+background:#999;
+margin-right:19px;
+}
+#mediaBox .mediaDetail .detailBox{
+	float:left;
+	width:300px;
+	padding:0px 0 0;
+}
+#mediaBox .mediaDetail .detailBox h5{
+font-size:11px;
+font-weight:bold;
+margin-bottom:5px;
+}
+#mediaBox .mediaDetail .detailBox p{
+	font-size:12px;
+	font-weight:bold;
+	color:#004a26;
+	line-height:normal;
+	margin-bottom:0!important
+}
+#mediaBox  ul.videos {     float: left;
+    list-style: none outside none;
+    margin-left: -44px;
+    width: 472px;}
+
+#mediaBox  ul.videos li { margin-bottom:0;}
+
+#pageNavPosition {
+	padding-top:10px;
+	float:left;
+}
+
+#pageNavPosition a {
+    margin-right: 10px;
+    text-align: center;
+    text-decoration: underline;
+	font-weight: bold;}
+	
+#pageNavPosition a span.pg-selected
+{
+	color:#333333;
+    text-align: center;
+    text-decoration: underline;
+	font-weight: bold;	}
+	
+#pageNavPosition span.prev,
+#pageNavPosition span.next
+{
+	margin-right:10px;
+	font-weight:bold;	}
+#results  .mediaDetail .detailBox a,
+#videos2 .videos .detailBox p a{
+	color:#000;}	

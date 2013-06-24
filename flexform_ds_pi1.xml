@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<T3DataStructure>
+  <meta>
+        <langDisable>1</langDisable>
+  </meta>
+  <sheets>
+   <sDEF>
+    <ROOT>
+     <TCEforms>
+      <sheetTitle>LLL:EXT:youtubevideos/locallang_db.xml:tx_youtubevideos_pi1.configure</sheetTitle>
+     </TCEforms>
+     <type>array</type>
+      <el>
+		<uvideo_display>
+		 <TCEforms>
+			<exclude>1</exclude>   
+			<label>LLL:EXT:youtubevideos/locallang_db.xml:tx_youtubevideos_pi1.what_to_display</label>
+			<config>
+			  <type>select</type>
+			  <items type="array">
+						<numIndex index="1" type="array">
+							<numIndex index="0">LLL:EXT:youtubevideos/locallang_db.xml:tx_youtubevideos_pi1.top5</numIndex>
+							<numIndex index="1">1</numIndex>
+						</numIndex>
+						<numIndex index="2" type="array">
+							<numIndex index="0">LLL:EXT:youtubevideos/locallang_db.xml:tx_youtubevideos_pi1.list</numIndex>
+							<numIndex index="1">2</numIndex>
+						</numIndex>
+  			  </items>	
+			  <size>1</size> 
+			  <minitems>1</minitems>
+			  <maxitems>1</maxitems>
+			</config>
+		   </TCEforms>
+		  </uvideo_display>
+		  <uvideo_type>
+		 <TCEforms>
+			<exclude>1</exclude>   
+			<label>LLL:EXT:youtubevideos/locallang_db.xml:tx_youtubevideos_pi1.what_type</label>
+			<config>
+			  <type>select</type>
+			  <items type="array">
+						<numIndex index="1" type="array">
+							<numIndex index="0">LLL:EXT:youtubevideos/locallang_db.xml:tx_youtubevideos_pi1.uploads</numIndex>
+							<numIndex index="1">uploads</numIndex>
+						</numIndex>
+						<numIndex index="2" type="array">
+							<numIndex index="0">LLL:EXT:youtubevideos/locallang_db.xml:tx_youtubevideos_pi1.favorites</numIndex>
+							<numIndex index="1">favorites</numIndex>
+						</numIndex>
+						<numIndex index="3" type="array">
+							<numIndex index="0">LLL:EXT:youtubevideos/locallang_db.xml:tx_youtubevideos_pi1.playlists</numIndex>
+							<numIndex index="1">playlists</numIndex>
+						</numIndex>						
+  			  </items>	
+			  <size>1</size> 
+			  <minitems>1</minitems>
+			  <maxitems>1</maxitems>
+			</config>
+		   </TCEforms>
+		  </uvideo_type>		  
+		  <userchannel>
+		 	<TCEforms>
+				<exclude>1</exclude>   
+				<label>LLL:EXT:youtubevideos/locallang_db.xml:tx_youtubevideos_pi1.userchannel</label>
+				<config>
+				 <type>input</type>
+				 <size>255</size>
+				 <max>255</max>
+				 <eval>text</eval>
+				</config>
+		   	</TCEforms>
+		  </userchannel>
+		  <hnumofrec>
+		 	<TCEforms>
+				<exclude>1</exclude>   
+				<label>LLL:EXT:youtubevideos/locallang_db.xml:tx_youtubevideos_pi1.hnumofrec</label>
+				<config>
+				 <type>input</type>
+				 <size>255</size>
+				 <max>255</max>
+				 <eval>text</eval>
+				</config>
+		   	</TCEforms>
+		  </hnumofrec>		  
+		  <numofrec>
+		 	<TCEforms>
+				<exclude>1</exclude>   
+				<label>LLL:EXT:youtubevideos/locallang_db.xml:tx_youtubevideos_pi1.numofrec</label>
+				<config>
+				 <type>input</type>
+				 <size>255</size>
+				 <max>255</max>
+				 <eval>text</eval>
+				</config>
+		   	</TCEforms>
+		  </numofrec>		  
+      </el>
+     </ROOT>
+    </sDEF>
+   </sheets>
+</T3DataStructure>
